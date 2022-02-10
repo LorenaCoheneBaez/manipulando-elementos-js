@@ -10,25 +10,29 @@
 </head>
 
 <body id="lista">
-    <figure>
-        <img src="/img/logo-DH.png" alt="Logo Digital House">
-    </figure>
-    <h1 class="moviesListTitulo"></h1>
-    <br>
-    <p>
-        <a class="botonAgregar" href="/movies/add">Agregar una Pelicula</a>
-        <a class="botonVolver" href="/">inicio</a>
-
-    </p>
-    <br>
-    <ul>
-        <% for( let i = 0; i < movies.length; i++ ) { %>
-        <li>
-            <a  href="/movies/detail/<%= movies[i].id %>"><%= movies[i].title %></a>
-        </li>
-        <% } %>
-
-    </ul>
+      <a href="/">
+        <figure>
+            <img src="/img/logo-DH.png" alt="Logo Digital House">
+        </figure> 
+   </a>   
+    <div class="container-lista">
+        <h1 class="moviesListTitulo"></h1>
+        <br>
+        <p>
+            <a class="botonAgregar" href="/movies/add">Agregar una Pelicula</a>
+            <a class="botonVolver" href="/">inicio</a>
+        
+        </p>
+        <br>
+        <ul class="container-lista">
+            <% for( let i = 0; i < movies.length; i++ ) { %>
+            <li class="lista-peliculas">
+                <a class="link-pelicula"  href="/movies/detail/<%= movies[i].id %>"><%= movies[i].title %></a>
+            </li>
+            <% } %>
+        
+        </ul>
+    </div>
     <script src="/js/moviesList.js"></script>
 </body>
 </html>

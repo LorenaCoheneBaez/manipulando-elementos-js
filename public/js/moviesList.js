@@ -10,7 +10,7 @@ if(modoOscuro){
 
   titulo.innerText='LISTADO DE PELICULAS'
   titulo.style.color='white'
-  titulo.style.backgroundColor='teal'
+  titulo.style.backgroundColor ='rgb(42, 19, 141)'
   titulo.style.padding='20px'  
 }
 })
