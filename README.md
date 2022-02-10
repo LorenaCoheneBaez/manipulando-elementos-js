@@ -23,7 +23,7 @@ Utilizar Javascript, desde el frontend, para manipular elementos del DOM.
 
 ***
 
-#### *Listado de películas
+### *Listado de películas
 
 - Crear un archivo JavaScript: /public/js//moviesList.js, y vincularlo con el archivo: /views//moviesList.ejs. Desde el archivo /public/js/moviesList.js, capturar los siguientes elementos: *body y h1*, ubicados en el archivo /views//moviesList.ejs.
 
@@ -35,7 +35,7 @@ Utilizar Javascript, desde el frontend, para manipular elementos del DOM.
 
 ***
 
-#### *Agregar película
+### *Agregar película
 
 - Crear un archivo JavaScript: /public/js//moviesAdd.js, y vincularlo con el archivo; /views//moviesAdd.ejs.
 
